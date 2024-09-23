@@ -1,0 +1,17 @@
+.input {
+  border-radius: 15px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-color: rgb(43, 226, 86);
+}
+
+.formBtm {
+  cursor: pointer;
+  background-color: darkgreen;
+  color: aliceblue;
+  border-radius: 10px;
+  padding: 5px;
+}

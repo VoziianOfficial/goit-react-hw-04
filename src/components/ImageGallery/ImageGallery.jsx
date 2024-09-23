@@ -1,14 +1,15 @@
 import React from "react";
+import ImageCard from "../ImageCard/ImageCard";
+import s from "./imageGallery.module.css";
 
-const ImageGallery = () => {
+const ImageGallery = ({ images, onImageClick }) => {
   return (
-    <ul>
-      {/* Набір елементів списку із зображеннями */}
-      <li>
-        <div>
-          <img src="" alt="" />
-        </div>
-      </li>
+    <ul className={s.imageGallery}>
+      {images.map((image) => (
+        <li key={image.id} className={s.imageItem}>
+          <ImageCard image={image} onImageClick={onImageClick} />
+        </li>
+      ))}
     </ul>
   );
 };

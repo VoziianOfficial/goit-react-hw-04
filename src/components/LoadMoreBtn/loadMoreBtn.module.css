@@ -1,0 +1,7 @@
+.loadMoreBtn {
+  cursor: pointer;
+  background-color: rgb(0, 75, 100);
+  color: aliceblue;
+  border-radius: 10px;
+  padding: 5px;
+}
